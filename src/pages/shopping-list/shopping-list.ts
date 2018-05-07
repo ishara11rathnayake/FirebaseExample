@@ -35,7 +35,7 @@ export class ShoppingListPage {
         {
           text: 'Edit',
           handler: () => {
-
+            this.navCtrl.push('EditShoppingItemPage', { shoppingItemId: shoppingItem.$key });
           }
         },
         {
